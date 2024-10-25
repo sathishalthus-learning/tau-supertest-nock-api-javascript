@@ -1,13 +1,23 @@
 {
   "dependencies": {
-    "chai": "^5.0.0",
-    "express": "^4.18.2",
-    "mocha": "^10.2.0",
-    "nock": "^13.4.0",
+    "chai": "^5.1.2",
+    "express": "^4.21.1",
+    "mocha": "^10.7.3",
+    "nock": "^13.5.5",
     "superfast": "^0.2.5",
-    "supertest": "^6.3.3"
+    "supertest": "^6.3.4"
   },
-"scripts": {
-  "test": "mocha tests/*.js"
-  }
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "name": "tau-supertest-nock-api-javascript",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
 }
